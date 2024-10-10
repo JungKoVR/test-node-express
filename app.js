@@ -13,5 +13,6 @@ app.get('/', function (req, res){
    res.send('OK');
 })
 
+//start
 app.listen(port)
 console.log("Server started on port " + port)
