@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout Git') {
+    stage('List') {
       steps {
-        git(url: 'https://github.com/JungKoVR/test-node-express', branch: 'main')
+        bat 'dir'
       }
     }
 
